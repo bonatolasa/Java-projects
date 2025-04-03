@@ -64,31 +64,6 @@ public class  Dictionary extends Application {
             }
         });
         
-//        translate.setOnAction(e->{
-//            try{
-//         // register a driver
-//                Class.forName("org.apache.derby.client.ClientAutoloadedDriver");
-//                // create a connection
-//               Connection conn = DriverManager.getConnection("jdbc:derby://localhost:1527/JAVA2025", "bonbonsa", "1994928");
-//                  //  create statement    
-//                Statement st = conn.createStatement();
-//                String eng = "";
-//                String oro = oroText.getText();
-//                String sql = "Select * from Transilation where OROMO= '"+oro+"'";
-//                
-//                ResultSet rs = st.executeQuery(sql);
-//                while(rs.next())
-//                {
-//                    eng = rs.getString("English");
-//                }
-//                engText.setText(eng);
-//                
-//                
-//            }catch(Exception ex){
-//                System.out.println(ex.getMessage());
-//            }
-//        });
-//        
 
 translate.setOnAction(e -> {
     try {
