@@ -126,7 +126,7 @@ translate.setOnAction(e -> {
             System.out.println("Enter only one word to translate.");
             return;
         }
-
+  
         // Execute query
         ResultSet rs = pst.executeQuery();
         if (rs.next()) {
@@ -239,69 +239,69 @@ translate.setOnAction(e -> {
 //}
 //
 //
-////
-////translate.setOnAction(e -> {
-////            String oroWord = oroText.getText();
-////            engText.setText("Translated: " + oroWord);
-////        });
-////        
-////        save.setOnAction(e -> {
-////            String oroWord = oroText.getText();
-////            String engWord = engText.getText();
-////            System.out.println("Saving: " + oroWord + " -> " + engWord);
-////        });
 //
+//translate.setOnAction(e -> {
+//            String oroWord = oroText.getText();
+//            engText.setText("Translated: " + oroWord);
+//        });
+//        
+//        save.setOnAction(e -> {
+//            String oroWord = oroText.getText();
+//            String engWord = engText.getText();
+//            System.out.println("Saving: " + oroWord + " -> " + engWord);
+//        });
+
+
+///
+//////*
+// * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+// * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+// */
+//package Registration;
 //
-/////
-////////*
-//// * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-//// * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
-//// */
-////package Registration;
-////
-////import javafx.application.Application;
-////import javafx.scene.Scene;
-////import javafx.scene.control.Button;
-////import javafx.scene.control.Label;
-////import javafx.scene.control.TextField;
-////import javafx.scene.layout.GridPane;
-////import javafx.stage.Stage;
-////
-/////**
-//// *
-//// * @author LAMI
-//// */
-////public class Dictionary extends Application {
-////
-////    @Override
-////    public void start(Stage primaryStage) throws Exception {
-////        Label oroLabel=new Label();
-////        Label engLabel=new Label();
-////        
-////        TextField oroText=new TextField();
-////        TextField engText=new TextField();
-////        
-////        Button translate=new Button("Translate");
-////        Button save=new Button("save");
-////        
-//////        save.setOnAction(e->){
-//////        Class.forName("org.apache.derby.client.ClientAutoloadedDriver");
-//////    };
-////        
-////        GridPane root=new GridPane();
-////        root.add(oroLabel,0,0);
-////        root.add(oroText,1,0);
-////        root.add(engLabel,0,1);
-////        root.add(engText,0,2);
-////        root.add(translate, 0, 0);
-////        root.add(save, 0, 0);
-////        
-////        Scene scene = new Scene(root, 350, 250);
-////        primaryStage.setTitle("Dictionary");
-////        primaryStage.setScene(scene);
-////        primaryStage.show();
-////    }
-////      public static void main(String[] args) {
-////        launch(args);
-////    }
-////}
+//import javafx.application.Application;
+//import javafx.scene.Scene;
+//import javafx.scene.control.Button;
+//import javafx.scene.control.Label;
+//import javafx.scene.control.TextField;
+//import javafx.scene.layout.GridPane;
+//import javafx.stage.Stage;
+//
+///**
+// *
+// * @author LAMI
+// */
+//public class Dictionary extends Application {
+//
+//    @Override
+//    public void start(Stage primaryStage) throws Exception {
+//        Label oroLabel=new Label();
+//        Label engLabel=new Label();
+//        
+//        TextField oroText=new TextField();
+//        TextField engText=new TextField();
+//        
+//        Button translate=new Button("Translate");
+//        Button save=new Button("save");
+//        
+////        save.setOnAction(e->){
+////        Class.forName("org.apache.derby.client.ClientAutoloadedDriver");
+////    };
+//        
+//        GridPane root=new GridPane();
+//        root.add(oroLabel,0,0);
+//        root.add(oroText,1,0);
+//        root.add(engLabel,0,1);
+//        root.add(engText,0,2);
+//        root.add(translate, 0, 0);
+//        root.add(save, 0, 0);
+//        
+//        Scene scene = new Scene(root, 350, 250);
+//        primaryStage.setTitle("Dictionary");
+//        primaryStage.setScene(scene);
+//        primaryStage.show();
+//    }
+//      public static void main(String[] args) {
+//        launch(args);
+//    }
+//}
