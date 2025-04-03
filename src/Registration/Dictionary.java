@@ -165,7 +165,7 @@ translate.setOnAction(e -> {
         
         Scene scene = new Scene(root, 300, 250);
         
-        
+                
         primaryStage.setTitle("Dictionary");
         primaryStage.setScene(scene);
         primaryStage.show();
