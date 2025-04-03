@@ -178,10 +178,6 @@ translate.setOnAction(e -> {
 
 
 
-
-
-
-
 //package Registration;
 //
 //import javafx.application.Application;
